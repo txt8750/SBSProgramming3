@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_포인터와 참조자",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_객체지향 프로그램 클래스 생성", "03_객체지향 프로그램 클래스 생성\03_객체지향 프로그램 클래스 생성.vcxproj", "{5108C026-10CE-4A61-AF1F-51540D6760A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_객체 생성자와 소멸자", "04_객체 생성자\04_객체 생성자.vcxproj", "{5409EC7E-1AA6-4803-98A8-B97E67EF2066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{5108C026-10CE-4A61-AF1F-51540D6760A6}.Release|x64.Build.0 = Release|x64
 		{5108C026-10CE-4A61-AF1F-51540D6760A6}.Release|x86.ActiveCfg = Release|Win32
 		{5108C026-10CE-4A61-AF1F-51540D6760A6}.Release|x86.Build.0 = Release|Win32
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Debug|x64.ActiveCfg = Debug|x64
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Debug|x64.Build.0 = Debug|x64
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Debug|x86.ActiveCfg = Debug|Win32
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Debug|x86.Build.0 = Debug|Win32
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Release|x64.ActiveCfg = Release|x64
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Release|x64.Build.0 = Release|x64
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Release|x86.ActiveCfg = Release|Win32
+		{5409EC7E-1AA6-4803-98A8-B97E67EF2066}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
