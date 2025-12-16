@@ -30,8 +30,14 @@ void Monster::SetPtrValue(int value)
 	*iptr = value;
 }
 
-Monster::Monster(Monster&& rhs)
+void Monster::PrintData()
+{
+	cout << name << endl;
+}
+
+Monster::Monster(Monster&& rhs) noexcept : name(rhs.name), hp(rhs.hp), evasion(rhs.evasion), type(rhs.type), enum_type(rhs.enum_type), speed(rhs.speed)
 {
 	cout << "이동 생성자" << endl;
-	*iptr = *rhs.iptr;
+	iptr = rhs.iptr;
+	rhs.iptr = nullptr;
 }

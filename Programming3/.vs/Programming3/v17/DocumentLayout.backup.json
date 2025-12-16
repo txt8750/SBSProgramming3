@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|solutionrelative:05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|solutionrelative:05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5409EC7E-1AA6-4803-98A8-B97E67EF2066}|04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9ECC6E07-B526-4885-BCF5-E68752C0B7AB}|05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131.vcxproj|solutionrelative:05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,52 +21,46 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 273,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "04_main.cpp",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp",
-              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp",
-              "RelativeToolTip": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\04_main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-15T07:03:31.422Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
           "DockedWidth": 353,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Monster.cpp",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp",
-              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp",
-              "RelativeToolTip": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "05_main.cpp",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp",
+              "RelativeDocumentMoniker": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp",
+              "RelativeToolTip": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\05_main.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-15T07:29:51.489Z",
+              "WhenOpened": "2025-12-16T07:05:31.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Monster.h",
-              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h",
-              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h",
-              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h",
-              "RelativeToolTip": "04_\uAC1D\uCCB4 \uC0DD\uC131\uC790\\Monster.h",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCoAAAACAAAAAAAAAA==",
+              "Title": "Account.cpp",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp",
+              "RelativeDocumentMoniker": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp",
+              "RelativeToolTip": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-16T07:06:42.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.h",
+              "DocumentMoniker": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h",
+              "RelativeDocumentMoniker": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h",
+              "ToolTip": "D:\\SBS\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\SBSProgramming3\\Programming3\\05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h",
+              "RelativeToolTip": "05_\uAC1D\uCCB4\uC758 \uC0DD\uC131\\Account.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-15T07:11:14.446Z",
+              "WhenOpened": "2025-12-16T07:06:17.246Z",
               "EditorCaption": ""
             }
           ]

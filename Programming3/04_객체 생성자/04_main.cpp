@@ -34,6 +34,9 @@ int main()
 	int& aRef = a;   // Lvalue의 참조자
 	int&& bRef = 10; // Rvalue의 참조자
 	
+
+	Monster mon3(mon2);
+	mon3.PrintData();
 	// Lvalue 타입은 값을 저장하고 변경할 수 있는 타입
 	// Rvalue 타입은 값을 변경할 수 없음. 이름을 가질 수 없음.
 }

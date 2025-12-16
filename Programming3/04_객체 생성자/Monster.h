@@ -35,11 +35,12 @@ public:
 	Monster();  // no args 생성자. 기본값으로 전부 다 설정해줘.
 	Monster(string _name, int _hp, double _evasion, string _type, BattleType _enum_type, int _speed);
 	Monster(const Monster& other);   // copy 생성자  shallow copy, deep copy -> new 키워드로 메모리 생성 후 값 복사
-	Monster(Monster&& rhs);			 // move 생성자  
+	Monster(Monster&& rhs) noexcept;			 // move 생성자  
 
 	~Monster(); // 소멸자
 	// 멤버함수
 	void SetPtrValue(int value);
+	void PrintData();
 };
 
 #endif
