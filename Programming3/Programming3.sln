@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_연산자 오버로딩 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_상속과 구성", "08_상속과 구성\08_상속과 구성.vcxproj", "{91CE44B1-D223-4988-B8CA-4BBCB74686E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_클래스의 다형성", "09_클래스의 다형성\09_클래스의 다형성.vcxproj", "{88759B27-847F-4866-8003-D5F0254C9C1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{91CE44B1-D223-4988-B8CA-4BBCB74686E1}.Release|x64.Build.0 = Release|x64
 		{91CE44B1-D223-4988-B8CA-4BBCB74686E1}.Release|x86.ActiveCfg = Release|Win32
 		{91CE44B1-D223-4988-B8CA-4BBCB74686E1}.Release|x86.Build.0 = Release|Win32
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Debug|x64.ActiveCfg = Debug|x64
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Debug|x64.Build.0 = Debug|x64
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Debug|x86.ActiveCfg = Debug|Win32
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Debug|x86.Build.0 = Debug|Win32
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Release|x64.ActiveCfg = Release|x64
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Release|x64.Build.0 = Release|x64
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Release|x86.ActiveCfg = Release|Win32
+		{88759B27-847F-4866-8003-D5F0254C9C1E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
