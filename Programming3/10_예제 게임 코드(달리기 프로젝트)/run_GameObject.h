@@ -37,3 +37,15 @@ public:
 	void Move() override;
 };
 
+class dash_GameObject : public run_GameObject
+{
+private:
+	int dash_power;
+	int dashtick;
+	int dashtime;
+public:
+	dash_GameObject(int _x, int _y, string _shape, int _speed, int _dash_power, int _movetick = 0);
+	dash_GameObject();
+
+	void Move() override;
+};

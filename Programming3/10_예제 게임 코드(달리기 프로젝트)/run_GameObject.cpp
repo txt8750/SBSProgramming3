@@ -52,11 +52,40 @@ void jump_GameObject::Move()
 	jumptick++;
 	if (jumptick >= jumpTime) {
 		// 움직여라 코드. (다형성을 가지게 만들어라)
-		if (isGround) { y -= jump_power; }
-		else { y += jump_power; }
+		if (isGround) {
+			y += jump_power;
+		}
+		else {
+			y -= jump_power;
+		}
 		isGround = !isGround;
 
 		jumptick = 0;
 	}	
 	run_GameObject::Move();
 }
+
+dash_GameObject::dash_GameObject(int _x, int _y, string _shape, int _speed, int _dash_power, int _movetick)
+	: run_GameObject(_x, _y, _shape, _speed), dash_power(_dash_power)
+{
+	dashtick = 0;
+	dashtime = 20;
+}
+
+dash_GameObject::dash_GameObject() : run_GameObject(), dash_power(3)
+{
+	dashtick = 0;
+	dashtime = 3;
+}
+
+void dash_GameObject::Move()
+{
+	dashtick++;
+	if (dashtick >= dashtime)
+	{
+		x -= dash_power;
+		dashtick = 0;
+	}
+	run_GameObject::Move();
+}
+
