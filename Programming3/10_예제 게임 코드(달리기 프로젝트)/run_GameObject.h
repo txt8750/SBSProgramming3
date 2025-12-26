@@ -7,13 +7,13 @@ using namespace std;
 
 class run_GameObject
 {
-protected:
-	int x;
-	int y;
+private:
 	string shape;
 	int speed;
 	int movetick;
-
+protected:
+	int x;
+	int y;
 public:
 	run_GameObject(int _x, int _y, string _shape, int _speed, int _movetick = 0);
 	run_GameObject();
