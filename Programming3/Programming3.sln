@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_범위기반 루프", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_JSON 사용하기", "12_JSON 사용하기\12_JSON 사용하기.vcxproj", "{ED7CCBD4-5B1D-415D-90B8-A828ADED4204}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_형변환 객체를 생성하기", "13_형변환 객체를 생성하기\13_형변환 객체를 생성하기.vcxproj", "{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{ED7CCBD4-5B1D-415D-90B8-A828ADED4204}.Release|x64.Build.0 = Release|x64
 		{ED7CCBD4-5B1D-415D-90B8-A828ADED4204}.Release|x86.ActiveCfg = Release|Win32
 		{ED7CCBD4-5B1D-415D-90B8-A828ADED4204}.Release|x86.Build.0 = Release|Win32
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Debug|x64.ActiveCfg = Debug|x64
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Debug|x64.Build.0 = Debug|x64
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Debug|x86.ActiveCfg = Debug|Win32
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Debug|x86.Build.0 = Debug|Win32
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Release|x64.ActiveCfg = Release|x64
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Release|x64.Build.0 = Release|x64
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Release|x86.ActiveCfg = Release|Win32
+		{35CE6F90-7A64-4ED0-9943-EC1F2E693F69}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
