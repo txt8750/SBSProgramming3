@@ -7,37 +7,11 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include "Monster.h"
+#include "Player.h"
 
 using namespace std;
 
-class Monster
-{
-private:
-	int hp;
-	int atk;
-	string name;
-public:
-	int GetStrength() const { return hp + atk; }
-
-	bool operator>(const Monster& other)
-	{
-		return (hp + atk) > (other.hp + other.atk);
-	}
-	Monster(int _hp, int _atk, string _name) : hp(_hp), atk(_atk), name(_name) {}
-	Monster() : Monster{ 100, 10, "이름없음"} {}
-
-	void Damage(int amount) { hp -= amount; }
-
-	bool IsDeath() { return hp <= 0; }
-	
-// 접근 지정자.
-// 생성 - 소멸자
-// 상속 - 구성
-// 스마트 포인터
-};
-
-// Room은 게임에 등장하는 게임 요소를 incount 시키는 객체다.
-// iterator<Room> iterator++
 
 struct CompareStrength
 {
@@ -54,7 +28,7 @@ private:
 	vector<Monster*> AvailableMonsters; // 컨테이너 생성. 랜덤한 몬스터들이 배정 되어 있다.
 	vector<Monster*> SettingsMonster; // 약한 몬스터가 0번배열에 저장이 되어있다.
 public:
-// 몬스터들의 강함 순위를 정해서 약한 몬스터가 앞에서 등장하게 구현하고 싶다. (순서를 재정렬하고싶다.)
+	// 몬스터들의 강함 순위를 정해서 약한 몬스터가 앞에서 등장하게 구현하고 싶다. (순서를 재정렬하고싶다.)
 	void Initialize(const vector<Monster*>& copyMonsters)
 	{
 		AvailableMonsters = copyMonsters;
@@ -70,22 +44,15 @@ public:
 	Monster* Encount(int roomindex) { return SettingsMonster[roomindex]; }
 };
 
-class Player
-{
-private:
-	int hp;
-	int atk;
-public:
+// Room은 게임에 등장하는 게임 요소를 incount 시키는 객체다.
+// iterator<Room> iterator++
 
-	Player(int _hp, int _atk) : hp(_hp), atk(_atk) {}
-	Player() : Player{ 1000, 100 } {}
-	bool IsDeath() { return hp <= 0; }
-};
 
 class BattleManager
 {
-private:
-	void Battle(Player& player, Monster* mon)
+private:    
+                                                       // GameObject-> virtual void RoomEntryEvent(); // 몬스터방->전투, 보물상자->상자획득, 함정->함정,...
+	void Battle(Player* player, BattleObject* other)  // Player Monster 싸우는 버전
 	{
 		// 턴
 		while (true) {
@@ -94,12 +61,12 @@ private:
 
 			// 내가 공격
 			cin >> playerIndex; // 대기 하라.
-			player.Attack(mon);
+			player->Attack(other);
 
 			// 니가 공격
-			mon->Attack(player);
+			other->Attack(player);
 
-			if (player.IsDeath() || mon->IsDeath())
+			if (player->IsDeath() || other->IsDeath())
 			{
 				break;
 			}
@@ -107,11 +74,11 @@ private:
 
 		// 몬스터가 죽었으면 다음 전투를 진행.
 		// 플레이어가 죽었으면 게임 종료
-		if (player.Death) {}
-		if (mon.Death) {}
+		//if (player.Death) {}
+		//if (mon.Death) {}
 	}
 public:
-	void PlayRoom(Player& player,Room room)
+	void PlayRoom(Player* player,Room room)
 	{
 		int battleCount = room.RoomCount();
 		for (int i = 0; i < battleCount; i++)
@@ -119,9 +86,14 @@ public:
 			// 전투
 
 			// 몬스터와 조우했다.
+			cout << i+1 << "번째 방에 진입했습니다." << endl;
 			Monster* mon = room.Encount(i);
 
 			Battle(player, mon);
+			if (player->IsDeath())
+			{
+				return;
+			}
 		}
 	}
 };
@@ -132,12 +104,17 @@ int main()
 
 	Room room;
 	vector<Monster*> copyMonsters;
-	copyMonsters.push_back(new Monster(70, 7, "C")); 
-	copyMonsters.push_back(new Monster(60, 6, "B"));
-	copyMonsters.push_back(new Monster(80, 8, "D"));
-	copyMonsters.push_back(new Monster(50, 5, "A"));
+	copyMonsters.push_back(new Monster(3, 70, 7, "C")); 
+	copyMonsters.push_back(new Monster(2, 60, 6, "B"));
+	copyMonsters.push_back(new Monster(4, 80, 8, "D"));
+	copyMonsters.push_back(new Monster(1, 50, 5, "A"));
 
 	room.Initialize(copyMonsters);
 	room.SetOrder();
+	
+	Player* player = new Player();
+	BattleManager _bm;
+	_bm.PlayRoom(player, room);
+
 
 }
