@@ -6,7 +6,7 @@ class Player : public BattleObject
 {
 public:
 
-	Player(int _id, int _hp, int _atk);
+	Player(int _id, RoomObjectType TYPE, int _hp, int _atk);
 	Player();
 
 	void Attack(BattleObject* other) override;

@@ -1,7 +1,7 @@
 #include "Monster.h"
 
-Monster::Monster(int _id, int _hp, int _atk, string _name) : BattleObject(_id, _hp, _atk), name(_name) {}
-Monster::Monster() : Monster{ 1002, 100, 10, "이름없음" } {}
+Monster::Monster(int _id, RoomObjectType TYPE, int _hp, int _atk, string _name) : BattleObject(_id, TYPE, _hp, _atk), name(_name) {}
+Monster::Monster() : Monster{ 1002, RoomObjectType::BATTLE, 100, 10, "이름없음" } {}
 
 
 

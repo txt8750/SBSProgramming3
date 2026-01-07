@@ -1,7 +1,5 @@
 #pragma once
 #include <string>
-
-#include "Player.h"
 #include "GameObject.h"
 
 using namespace std;
@@ -17,7 +15,7 @@ public:
 	{
 		return (hp + atk) > (other.hp + other.atk);
 	}
-	Monster(int _id, int _hp, int _atk, string _name);
+	Monster(int _id, RoomObjectType TYPE, int _hp, int _atk, string _name);
 	Monster();
 
 	void Attack(BattleObject* other);

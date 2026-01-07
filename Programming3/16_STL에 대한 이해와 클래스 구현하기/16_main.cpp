@@ -104,10 +104,10 @@ int main()
 
 	Room room;
 	vector<Monster*> copyMonsters;
-	copyMonsters.push_back(new Monster(3, 70, 7, "C")); 
-	copyMonsters.push_back(new Monster(2, 60, 6, "B"));
-	copyMonsters.push_back(new Monster(4, 80, 8, "D"));
-	copyMonsters.push_back(new Monster(1, 50, 5, "A"));
+	copyMonsters.push_back(new Monster(3, RoomObjectType::BATTLE, 70, 7, "C"));
+	copyMonsters.push_back(new Monster(2, RoomObjectType::BATTLE, 60, 6, "B"));
+	copyMonsters.push_back(new Monster(4, RoomObjectType::BATTLE, 80, 8, "D"));
+	copyMonsters.push_back(new Monster(1, RoomObjectType::BATTLE, 50, 5, "A"));
 
 	room.Initialize(copyMonsters);
 	room.SetOrder();
